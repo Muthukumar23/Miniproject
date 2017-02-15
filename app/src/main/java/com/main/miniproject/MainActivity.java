@@ -123,19 +123,13 @@ public class MainActivity extends AppCompatActivity {
                         public void onResponse(String response) {
                             try {
                                 progressDialog.dismissProgressDialog();
-                                Log.d("employeeResponse>>",""+response);
 
                                 if (Util.isValidString(response.replace("\n",""))) {
-//                                    Type type = new TypeToken<EmployeeBean>() {
-//                                    }.getType();
-
                                     Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
                                     //EmployeeBean employeeResponse = gson.fromJson(response, type);
                                     EmployeeBean[] employeeResponse = gson.fromJson(response.replace("\n",""), EmployeeBean[].class);
-
                                     // Saved Preference class
                                     PreferenceManager.saveEmpResponse(mContext,employeeResponse);
-
                                     getEmployeeDetailsMethod();
                                 }
                             } catch (Exception e) {
