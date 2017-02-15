@@ -33,7 +33,8 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
         CircleImageView emp_img;
         TextView firstName;
         TextView lastName;
-        TextView address;
+        TextView designation;
+        TextView city;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -41,7 +42,8 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
             emp_img = (CircleImageView) itemView.findViewById(R.id.empImage);
             firstName = (TextView) itemView.findViewById(R.id.firstName);
             lastName = (TextView) itemView.findViewById(R.id.lastName);
-            address = (TextView) itemView.findViewById(R.id.address);
+            designation = (TextView) itemView.findViewById(R.id.designation);
+            city = (TextView) itemView.findViewById(R.id.city);
         }
     }
 
@@ -61,7 +63,8 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
         final Employee employeelist = empAdapterlist.get(position);
         holder.firstName.setText("First Name: "+employeelist.getFirstName());
         holder.lastName.setText("Last Name: "+employeelist.getLastName());
-        holder.address.setText("Address: "+employeelist.getAddress());
+        holder.designation.setText("Designation: "+employeelist.getDesignation());
+        holder.city.setText("City: "+employeelist.getCity());
         if(Util.isValidString(employeelist.getImageURL())) {
             Ion.with(mActivity).load(employeelist.getImageURL()).withBitmap().asBitmap()
                     .setCallback(new FutureCallback<Bitmap>() {

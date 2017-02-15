@@ -20,14 +20,15 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/empImage"
                 android:layout_width="60dp"
-                android:layout_height="60dp"/>
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"/>
 
             <TextView
                 android:id="@+id/firstName"
                 android:layout_toRightOf="@+id/empImage"
                 android:layout_width="wrap_content"
                 android:text="Name"
-                android:layout_margin="2dp"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/colorPrimary"
                 android:layout_height="wrap_content"/>
 
@@ -36,18 +37,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="LastName"
-                android:layout_margin="2dp"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/colorPrimary"
                 android:layout_below="@+id/firstName"
                 android:layout_toRightOf="@+id/empImage"/>
             <TextView
-                android:id="@+id/address"
+                android:id="@+id/designation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="address"
-                android:layout_margin="2dp"
+                android:text="designation"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/colorPrimary"
                 android:layout_below="@+id/lastName"
+                android:layout_toRightOf="@+id/empImage"/>
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="city"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_below="@+id/designation"
                 android:layout_toRightOf="@+id/empImage"/>
 
         </RelativeLayout>

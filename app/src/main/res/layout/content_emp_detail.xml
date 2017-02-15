@@ -9,23 +9,25 @@
     tools:context="com.main.miniproject.MainActivity"
     tools:showIn="@layout/empdetails_layout">
     <!--About Start-->
-    <android.support.v7.widget.CardView
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:elevation="5dp"
+            android:layout_margin="5dp"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -64,8 +66,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -104,8 +104,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -143,8 +141,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -183,8 +179,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -223,8 +217,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -263,8 +255,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -303,8 +293,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -343,8 +331,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -383,8 +369,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
@@ -423,8 +407,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
                 android:visibility="visible">
 
                 <TextView
