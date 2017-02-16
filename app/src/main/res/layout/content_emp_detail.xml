@@ -20,9 +20,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:elevation="5dp"
+            android:elevation="3dp"
             android:layout_margin="5dp"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,7 +32,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -42,14 +43,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/first_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
+                    android:gravity="right"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -69,7 +69,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -80,14 +80,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/lastname_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -107,7 +106,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -118,14 +117,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/address_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -144,7 +142,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -155,14 +153,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/gender_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -182,7 +179,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -193,14 +190,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/dob_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -220,7 +216,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -231,14 +227,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/mobile_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -258,7 +253,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -269,14 +264,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/email_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -296,7 +290,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -307,14 +301,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/nationality_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -334,7 +327,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -345,14 +338,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/language_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -372,7 +364,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -383,14 +375,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/technical_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
@@ -410,7 +401,7 @@
                 android:visibility="visible">
 
                 <TextView
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left"
@@ -421,14 +412,13 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:layout_weight="1.5"
+                    android:layout_weight="1.2"
                     android:id="@+id/extra_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-"
+                    android:gravity="right"
                     android:padding="5dp"
-                    android:inputType="textMultiLine"
-                    android:layout_marginLeft="12dp"
                     android:textStyle="normal"
                     android:textSize="16dp"
                     android:textColor="@color/colorPrimary" />
