@@ -73,7 +73,6 @@ public class EmployeeDetailsActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //getMenuInflater().inflate(R.menu.booking_clearmenu, menu);
         return true;
     }
 
