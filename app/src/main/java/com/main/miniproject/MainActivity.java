@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Get Booking vehicle Response list Method
+     * Get Employee Response list Method
      * */
     private void getEmployeeDetailsMethod() {
         try{
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 mRecyclerView.setAdapter(mEmployeeAdapter);
 
-                // Vehicle Item Select List
+                // Employee Item Select List
                 mEmployeeAdapter.SetOnItemClickListener(new EmployeeAdapter.OnItemClickListener() {
                     @Override
                     public void onItemClick(View view, String empid) {
